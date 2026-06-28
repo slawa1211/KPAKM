@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bantuan Sosial</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: #eaf3ff;
+      font-family: Arial;
+      padding-top: 170px;
+    }
+
+    .header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #0b3b7a;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .btn-outline-primary {
+      border-radius: 25px;
+    }
+
+    .btn-primary {
+      border-radius: 25px;
+      background-color: #1565c0;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #0d47a1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>Bantuan Sosial</h1>
+    <p>
+      <a href="index.html" class="text-white fw-bold text-decoration-none">Beranda</a>
+      / Layanan Bantuan Sosial
+    </p>
+  </div>
+
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- PKH -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>💰 Program Keluarga Harapan (PKH)</h5>
+          <p>Bantuan sosial untuk keluarga kurang mampu</p>
+
+          <div class="d-flex gap-2">
+            <a href="syaratBS.html?layanan=pkh" class="btn btn-outline-primary btn-sm w-50">Lihat Syarat</a>
+            <a href="AjukanBS.html?layanan=pkh" class="btn btn-primary btn-sm w-50">Ajukan</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- BLT -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>💵 Bantuan Langsung Tunai (BLT)</h5>
+          <p>Bantuan uang tunai untuk masyarakat terdampak</p>
+
+          <div class="d-flex gap-2">
+            <a href="syaratBS.html?layanan=blt" class="btn btn-outline-primary btn-sm w-50">Lihat Syarat</a>
+            <a href="AjukanBS.html?layanan=blt" class="btn btn-primary btn-sm w-50">Ajukan</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SEMBAKO -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>🛒 Bantuan Sembako</h5>
+          <p>Bantuan kebutuhan pokok untuk masyarakat</p>
+
+          <div class="d-flex gap-2">
+            <a href="syaratBS.html?layanan=sembako" class="btn btn-outline-primary btn-sm w-50">Lihat Syarat</a>
+            <a href="AjukanBS.html?layanan=sembako" class="btn btn-primary btn-sm w-50">Ajukan</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- UMKM -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>🏪 Bantuan UMKM</h5>
+          <p>Dukungan modal untuk usaha kecil</p>
+
+          <div class="d-flex gap-2">
+            <a href="syaratBS.html?layanan=umkm" class="btn btn-outline-primary btn-sm w-50">Lihat Syarat</a>
+            <a href="AjukanBS.html?layanan=umkm" class="btn btn-primary btn-sm w-50">Ajukan</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PENDIDIKAN -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>🎓 Bantuan Pendidikan</h5>
+          <p>Bantuan biaya pendidikan untuk siswa</p>
+
+          <div class="d-flex gap-2">
+            <a href="syaratBS.html?layanan=pendidikan" class="btn btn-outline-primary btn-sm w-50">Lihat Syarat</a>
+            <a href="AjukanBS.html?layanan=pendidikan" class="btn btn-primary btn-sm w-50">Ajukan</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CEK STATUS -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>📊 Cek Status Bantuan</h5>
+          <p>Melihat status penerimaan bantuan sosial</p>
+
+          <div class="d-flex gap-2">
+            <a href="syaratBS.html?layanan=status" class="btn btn-outline-primary btn-sm w-50">Lihat Syarat</a>
+            <a href="AjukanBS.html?layanan=status" class="btn btn-primary btn-sm w-50">Ajukan</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

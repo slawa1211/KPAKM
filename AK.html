@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administrasi Kependudukan</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: #eaf3ff;
+      font-family: Arial;
+      padding-top: 170px;
+    }
+
+    .header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #0b3b7a;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .btn-outline-primary {
+      border-radius: 25px;
+    }
+
+    .btn-primary {
+      border-radius: 25px;
+      background-color: #1565c0;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #0d47a1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <section class="subsidi-header text-center">
+        <h1>Administrasi Kependudukan</h1>
+        <p>
+  <a href="index.html" class="text-white fw-bold text-decoration-none">
+    Beranda
+  </a>
+  / Layanan Administrasi Kependudukan
+</p>
+    </section>
+  </div>
+   
+
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- KK -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>📋 Kartu Keluarga (KK)</h5>
+          <p>Pembuatan, perubahan, dan pembaruan data Kartu Keluarga</p>
+
+          <div class="d-flex gap-2">
+            <a href="syarat.html?layanan=kk" class="btn btn-outline-primary btn-sm w-50">
+              Lihat Syarat
+            </a>
+            <a href="Ajukan.html?layanan=kk" class="btn btn-primary btn-sm w-50">
+              Ajukan
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- KTP -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>🪪 KTP Elektronik</h5>
+          <p>Perekaman, cetak ulang, atau perubahan data KTP</p>
+
+          <div class="d-flex gap-2">
+            <a href="syarat.html?layanan=ktp" class="btn btn-outline-primary btn-sm w-50">
+              Lihat Syarat
+            </a>
+            <a href="Ajukan.html?layanan=ktp" class="btn btn-primary btn-sm w-50">
+              Ajukan
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- AKTA LAHIR -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>👶 Akta Kelahiran</h5>
+          <p>Pengajuan pembuatan akta kelahiran anak</p>
+
+          <div class="d-flex gap-2">
+            <a href="syarat.html?layanan=akta-kelahiran" class="btn btn-outline-primary btn-sm w-50">
+              Lihat Syarat
+            </a>
+            <a href="Ajukan.html?layanan=akta-kelahiran" class="btn btn-primary btn-sm w-50">
+              Ajukan
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- AKTA KAWIN -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>💍 Akta Perkawinan</h5>
+          <p>Pencatatan akta perkawinan resmi</p>
+
+          <div class="d-flex gap-2">
+            <a href="syarat.html?layanan=akta-perkawinan" class="btn btn-outline-primary btn-sm w-50">
+              Lihat Syarat
+            </a>
+            <a href="Ajukan.html?layanan=akta-perkawinan" class="btn btn-primary btn-sm w-50">
+              Ajukan
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- AKTA KEMATIAN -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>⚰️ Akta Kematian</h5>
+          <p>Pengurusan akta kematian untuk administrasi resmi</p>
+
+          <div class="d-flex gap-2">
+            <a href="syarat.html?layanan=akta-kematian" class="btn btn-outline-primary btn-sm w-50">
+              Lihat Syarat
+            </a>
+            <a href="Ajukan.html?layanan=akta-kematian" class="btn btn-primary btn-sm w-50">
+              Ajukan
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- KIA -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>🧒 KIA (Kartu Identitas Anak)</h5>
+          <p>Kartu identitas resmi untuk anak di bawah 17 tahun</p>
+
+          <div class="d-flex gap-2">
+            <a href="syarat.html?layanan=kia" class="btn btn-outline-primary btn-sm w-50">
+              Lihat Syarat
+            </a>
+            <a href="Ajukan.html?layanan=kia" class="btn btn-primary btn-sm w-50">
+              Ajukan
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <!-- footer -->
+      <footer class="p-5 mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <a href="#" class="text-decoration-none">
+                <img src="https://i.pinimg.com/736x/0b/fc/ef/0bfcef8ad184d412c0fd43bfccb1cb42.jpg" style="width:30px; mix-blend-mode:multiply;">
+              </a>
+              <span>
+                Copyright © 2026 | Created and Developed by
+                <a href="https://www.instagram.com/kelompok12_5?igsh=ZW10aml1YmpqYnBz"
+                  class="text-decoration-none text-dark fw-bold">Kelompok 12</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+        
+</body>
+</html>
